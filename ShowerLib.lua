@@ -208,7 +208,7 @@ function ShowerLib2:CreateWindow(Name)
 
     ShowerLib2.Settings.SideBar.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-            dragging = false
+            dragging = true
             dragStart = input.Position
             startPos = ShowerLib2.Settings.ShowerLibMainFrame.Position
             
