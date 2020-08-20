@@ -41,7 +41,7 @@
 
     Section D: Example
 
-        local ShowerLib = loadstring(game:HttpGet("https://fluxteam.xyz/scripts/others/ShowerLib.lua"))()
+        local ShowerLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/LightMildTH/ShowerLib/master/ShowerLib.lua"))()
         local Window = ShowerLib:CreateWindow("F"); --Clicking this will make it rotate.
         local HomePage = Window:Section("Home")
         
