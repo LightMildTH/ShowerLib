@@ -1,6 +1,3 @@
-Documentation
-
---[[
     Documentation:
 
     Section A: Library
@@ -77,6 +74,5 @@ Documentation
         HomePage:AddDrop("Favorite Food?", {"Dick", "Pussy", "Cow", "Pig", "Bacon"}, function(Selected)
             print(Selected) -- prints what the user selected
         end)
-]]
 
 ![unknown](https://user-images.githubusercontent.com/40579794/90708050-1d855980-e2c3-11ea-9000-ddece435adc7.png)
